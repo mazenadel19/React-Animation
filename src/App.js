@@ -14,7 +14,6 @@ class App extends Component {
 	}
 
 	closeModal = () => {
-		console.log('clicked')
 		this.setState({ modalIsOpen: false })
 	}
 	render() {
