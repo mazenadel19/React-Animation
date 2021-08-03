@@ -10,16 +10,16 @@
 	top: 40%;
 	left: 25%;
 	width: 50%;
-	transition: all 0.8s ease-out;
+	transition: all 1s ease-out;
 }
 
 .ModalOpen {
-	animation: openModal 0.6s ease-out forwards;
+	animation: openModal 1s ease-out forwards;
 	/*forwards will stop animation from repeating itself, by default it does*/
 }
 
 .ModalClose {
-	animation: closeModal 0.6s ease-out forwards;
+	animation: closeModal 1s ease-out forwards;
 }
 
 @keyframes openModal {
