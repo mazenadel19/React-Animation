@@ -14,13 +14,13 @@ const modal = props => {
 			timeout={animationTiming}
 			mountOnEnter
 			unmountOnExit
-			classNames='fade-slide'>
-			{/* CSSTransition will cycle through classes begining with the class name u wrote in classNames and add them to whaterver wrapped with the csstransition depending on the state of the transition
-				-enter => at the point animation start
-				-enter-active => will be kept while animation is in the entering mode
-				-exit => when we start exiting
-				-exit-active => will keep tull animaiton ends
-			  */}
+			classNames={{
+				enter: '',
+				enterActive: 'ModalOpen',
+				exitActive: 'ModalClose',
+				exit: '',
+			}}>
+			{/* there are alse 2 more classNames appear and apeearActive for the first time something ir rendered to the dom only not when doing it conditionally */}
 			<div className='Modal'>
 				<h1>A Modal</h1>
 				<button className='Button' onClick={props.closed}>
