@@ -14,7 +14,7 @@
 }
 
 .ModalOpen {
-	animation: openModal 1s ease-out forwards;
+	animation: openModal .4s ease-out forwards;
 	/*forwards will stop animation from repeating itself, by default it does*/
 }
 
