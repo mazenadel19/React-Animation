@@ -12,14 +12,15 @@
 	width: 50%;
 	transition: all 1s ease-out;
 }
-
-.ModalOpen {
-	animation: openModal .4s ease-out forwards;
-	/*forwards will stop animation from repeating itself, by default it does*/
+.fade-slide-enter {
 }
-
-.ModalClose {
+.fade-slide-enter-active {
+	animation: openModal 0.4s ease-out forwards;
+}
+.fade-slide-exit-active {
 	animation: closeModal 1s ease-out forwards;
+}
+.fade-slide-exit {
 }
 
 @keyframes openModal {
