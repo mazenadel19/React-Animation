@@ -4,8 +4,8 @@
 
 - open terminal
 - git clone `https://github.com/mazenadel19/react-animation.git`
-- `npm i`
 - cd react-animation
+- `npm i`
 - `npm start` or `yarn start`
 
 <br/>
